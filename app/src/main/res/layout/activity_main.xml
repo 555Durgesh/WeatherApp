@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp">
+        <Button
+            android:id="@+id/NewYorkBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. New York"/>
+
+        <Button
+            android:id="@+id/SingaporeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NewYorkBtn"
+            android:text="2. Singapore"/>
+
+        <Button
+            android:id="@+id/MumbaiBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/SingaporeBtn"
+            android:text="3. Mumbai"/>
+
+        <Button
+            android:id="@+id/DelhiBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MumbaiBtn"
+            android:text="4. Delhi"/>
+
+        <Button
+            android:id="@+id/SydneyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DelhiBtn"
+            android:text="5. Sydney"/>
+
+        <Button
+            android:id="@+id/MelbourneBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/SydneyBtn"
+            android:text="6. Melbourne"/>
+    </RelativeLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RvSetup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R1"
+        android:layout_margin="@dimen/_5sdp"
+        />
+
+</RelativeLayout>

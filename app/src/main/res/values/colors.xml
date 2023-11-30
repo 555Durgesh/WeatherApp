@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="SkyBluePr">#1D4ED8</color>
+    <color name="SkyLightPr">#F5F6FC</color>
+    <color name="SkyLightBluePr">#2196F3</color>
+    <color name="BlueThemeColor">#24344E</color>
+    <color name="BlueBackgroundColor">#1b2330</color>
+    <color name="TextCr">#111827</color>
+</resources>
